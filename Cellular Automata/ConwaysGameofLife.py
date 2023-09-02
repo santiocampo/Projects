@@ -32,8 +32,6 @@ def update(screen, cells, size, with_progress=False):
 
     return updated_cells
 
-
-
 def main():
     pygame.init()
     screen = pygame.display.set_mode((800, 600))
